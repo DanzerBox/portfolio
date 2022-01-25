@@ -1,0 +1,181 @@
+.alert {
+	padding: 20px;
+	background-color: #f44336;
+	color: white;
+  }
+  
+  .closebtn {
+	margin-left: 15px;
+	color: white;
+	font-weight: bold;
+	float: right;
+	font-size: 22px;
+	line-height: 20px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+	color: black;
+  }
+
+
+
+.jumbotron  {
+    background-image: url('images/jumbotron.png');
+    background-size: cover;
+	border-radius: 25px;
+    height: 100%;}
+
+    body { 
+		overflow-x: hidden; 
+		font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	  } 
+
+#gallery:hover {
+	transform: scale(0.95);
+	transition: transform 0.5s ease-in;
+	transition: transform 0.6s ease-out; 
+}	
+
+.bg-dark {
+	transition: 750ms ease;
+	background-color: black !important;
+	 
+	padding: 10px;
+}
+
+
+
+.nav-item{
+	padding: 1px;
+	margin: 5px;
+}
+.nav-item:hover :not(active){
+	border-style: ridge;
+	border-width: 1px;
+	border-bottom-left-radius: 12px;
+	border-top-right-radius: 12px;
+	transition: 0.5s;
+	
+}
+
+a.active {
+	border-style: solid;
+	border-width: 1px;
+	border-bottom-left-radius: 12px;
+	border-top-right-radius: 12px;
+	border-spacing: 5px;
+
+}
+
+
+
+
+.bg-dark.scrolled {
+	background-color: rgb(0, 0, 0) !important;
+	opacity: 1.0;
+	padding: 2.5px;
+}
+
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+h3 {
+	font-size: 25px;
+	text-shadow: 2 2 2px #000000;
+}
+  
+.carousel-caption {
+	height:150px;
+	font-size: 25px;
+	font-style: bold; 
+	text-shadow: 0 0 5px #000000;
+} 
+  
+.carousel{
+	 height: 100%;
+  }
+  
+* {
+	box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	width: 49%;
+	padding: 5px;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.column-box {
+	float: left;
+	width: 50%;
+	padding: 1px;
+}
+
+.row-box::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+  
+div.polaroid {
+	width: 350px;
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-align: center;
+  }
+
+div.container {
+  padding: 10px;
+}
+
+.first-example-grid {
+	background-color: #535a5e;
+	border: 3px solid #000000;
+
+}
+
+.placeholder-img {
+	height: 200px;
+	border: 1px solid black !important;
+}
+
+
+
+
+.col{
+	background-color: #535a5e;
+	color:#000000;
+	padding: 5px;
+	margin: 3px;
+	text-align: center;
+}
+
+.second-example-grid {
+	background-color: #aaaa00;
+	border: 3px solid #000000;
+	
+}
+
+.second-example-cell {
+	background-color: #cccc00;
+	color:#000000;
+	padding: 5px;
+	margin: 3px;
+	text-align: center;
+}
