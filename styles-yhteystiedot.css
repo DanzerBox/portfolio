@@ -21,7 +21,9 @@
 	padding: 10px;
 }
 
-
+h2, h3, p {
+ color: white;
+}
 
 .nav-item{
 	padding: 1px;
