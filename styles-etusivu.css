@@ -31,12 +31,14 @@
 		overflow-x: hidden; 
 		font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	  } 
+#gallery{
+	transition: transform .2s;
+}
 
 #gallery:hover {
 	
-	transition: 0.5s ease-in-out;
-	transition: transform 0.6s ease-out; 
-	transform: scale(1.1);
+	
+	transform: scale(1.08);
 }	
 
 
